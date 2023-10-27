@@ -46,8 +46,15 @@ text-align: center;
     header
     {
      text-align: center;
-     height: 100px;
-     padding-top: 50px;
+     background-image: url(../images/main.jpg);
+     height: 400px;
+     background-repeat: no-repeat;
+     background-position: left;
+     background-color: #1f6a7d;
+     background-attachment: fixed;
+     background-size: cover;
+     padding-top: 100px;
+     padding-left: 250px;
     }
     footer
     {
