@@ -1,17 +1,16 @@
 body {
     background-color: #479784
+}
     
-    h1 {
-    color: #2b655f;
-    text-align: center;
-    }
-    
-    h2 {
-    color: #2b655f;
-    text-align: center;
-    }
-    
-    discr {
+h1 {
+color: #2b655f;
+text-align: center;
+}
+h2 {
+color: #2b655f;
+text-align: center;
+}
+.discr {
     color: black;
     text-align:center;
     }
