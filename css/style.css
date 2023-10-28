@@ -100,3 +100,17 @@ border-bottom-color: rgba(15, 122, 252, 0.2);
    margin: 0 auto;
    background-color: #039487;
 }
+footer
+{
+ padding: 1rem 3rem 1rem 3rem;
+}
+.footer {
+   background-color: #039487;
+    right: 0;
+    bottom: 0;
+    text-align: center; 
+    width: 99%;   
+    font-size: 19px;
+ font-weight: bold;
+   color: #cbd8e5;  
+  }
