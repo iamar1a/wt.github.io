@@ -3,12 +3,15 @@ body {
 }
     
 h1 {
-color: #0d2f5a;
+color: #748697;
 text-align: center;
 }
 h2 {
 color: #f8fbeb;
 text-align: center;
+}
+.img {
+   align-items: center;
 }
 .discr {
     color: black;
@@ -67,18 +70,23 @@ text-align: center;
      align-items: flex-start;
      flex-wrap: nowrap;
      justify-content: space-around;
-     background-color: #8aa277;
+     background-color: #039487;
     }
     .nav-flex-item
     {
     list-style-type: none;
     padding: 10px;
     margin-right: 5px;
-    border-left: 5px solid #8aa277;
+    border-left: 5px solid #039487;
     text-transform: uppercase;
-    background-color: #8aa277;
+    background-color: #039487;
     }
     .nav-flex-item:hover
     {
     background-color: #b8d7a6;
     }
+.wrapper {
+   max-width: 1024px;
+   margin: 0 auto;
+   background-color: #85c7a6;
+}
