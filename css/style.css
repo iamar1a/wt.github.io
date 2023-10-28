@@ -3,11 +3,11 @@ body {
 }
     
 h1 {
-color: #2b655f;
+color: #0d2f5a;
 text-align: center;
 }
 h2 {
-color: #2b655f;
+color: #f8fbeb;
 text-align: center;
 }
 .discr {
@@ -60,4 +60,25 @@ text-align: center;
     {
      padding: 1rem 3rem 1rem 3rem;
     }
-    
+    .nav-flex
+    {
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     flex-wrap: nowrap;
+     justify-content: space-around;
+     background-color: #8aa277;
+    }
+    .nav-flex-item
+    {
+    list-style-type: none;
+    padding: 10px;
+    margin-right: 5px;
+    border-left: 5px solid #8aa277;
+    text-transform: uppercase;
+    background-color: #8aa277;
+    }
+    .nav-flex-item:hover
+    {
+    background-color: #b8d7a6;
+    }
