@@ -117,3 +117,9 @@ footer
  font-weight: bold;
    color: #cbd8e5;  
   }
+  .block {
+   background-color: #039487;
+   color: #f8fbeb;
+   padding: 10px;
+   }
+   
