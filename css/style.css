@@ -58,7 +58,7 @@ header {
      background-size: cover;
      padding-top: 100px;
      padding-left: 250px;
-    }
+}
   
 .nav-flex {
      display: flex;
@@ -87,8 +87,7 @@ background-color: #039487;
 }
 
 
-footer
-{
+footer {
    position: relative;
    width: 100%;
    padding: 20px 50px;
@@ -118,6 +117,7 @@ footer
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
+}
 footer p {
     color: #fff;
     text-align: center;
@@ -125,7 +125,7 @@ footer p {
     font-size: 1.1em;
 }
   
-.sign {
+.sign{
       float: right; 
       border: 1px solid #333; 
       padding: 7px; 
@@ -146,7 +146,7 @@ footer p {
       margin-right: auto;
     }
     
-    .images {
+.images {
       margin-left: 30px;
       padding: 5px 5px 5px 60px
     }
