@@ -89,18 +89,53 @@ background-color: #039487;
 
 footer
 {
- padding: 1rem 3rem 1rem 3rem;
+   position: relative;
+   width: 100%;
+   padding: 20px 50px;
+   background: #cbd8e5;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 100px;
 }
-.footer {
-   background-color: #039487;
-    right: 0;
-    bottom: 0;
-    text-align: center; 
-    width: 99%;   
-    font-size: 19px;
- font-weight: bold;
-   color: #cbd8e5;  
-  }
+.social,
+.menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;/*разрешен перенос на новую строку*/
+}
+.social li,
+.menu li{
+    list-style: none;/*удалить черные маркеры*/
+}
+.social li a {
+    font-size: 2em;/*размер иконок*/
+    color: #fff;/*цвет иконок*/
+    margin: 0 10px;
+    display: inline-block;/*отображать как строчно-блочный элемент*/
+    transition: 0.5s;/*плавный переход*/
+}
+.menu li a {
+    font-size: 1.2em;/*размер ссылок меню*/
+    color: #fff;/*цвет ссылок меню*/
+    opacity: 0.75;/*значение прозрачности*/
+    margin: 0 15px;
+    text-decoration: none;/*ссылка без подчеркивания*/
+    display: inline-block;
+}
+.menu li a:hover {
+    opacity: 1;
+}
+footer p {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.1em;
+}
   
 .sign {
       float: right; 
