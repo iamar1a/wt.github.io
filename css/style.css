@@ -129,7 +129,7 @@ footer
       display: block;
     }
     table {
-      border: 5px solid;
+      border: 2px solid;
       position: center;
     }
     th {
@@ -144,9 +144,9 @@ footer
       padding: 20px;
     }
     td {
-      border-right: 5px dashed;
-      border-left: 5px dashed;
-      border-top: 5px dashed;
+      border-right: 2px dashed;
+      border-left: 2px dashed;
+      border-top: 2px dashed;
       padding: 10px 20px;
     }
     .tbl {
