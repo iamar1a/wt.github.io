@@ -10,57 +10,17 @@ h2 {
 color: #f8fbeb;
 text-align: center;
 }
-.img {
-   align-items: center;
-}
-.imgg {
-   align-items: right;
-}
 .discr {
     color: black;
-    text-align:center;
-    }
-    cntr {
-    text-align: center;
+    text-align: right;
     }
 
-    button {
-       display: inline-block;
-       text-decoration: none;
-       text-transform: uppercase;
-       letter-spacing: 1px;
-       margin: 15px 25px;
-       padding: 15px 20px;
-       font-size: 20px;
-       font-weight: bold;
-       font-family: 'Montserrat', sans-serif;
-       transition: 0.4s ease-in-out;
-    }
-    .f-button {
-       color: #456789;
-       background: -webkit-linear-gradient(right, #ffccda 0, #ffccda 33.3%, #d1edee 33.3%, #d1edee 66.6%, #966165 66.6%, #966165) bottom no-repeat;
-       background: -o-linear-gradient(right, #ffccda 0, #ffccda 33.3%, #d1edee 33.3%, #d1edee 66.6%, #966165 66.6%, #966165) bottom no-repeat;
-       background: linear-gradient(to right, #ffccda 0, #ffccda 33.3%, #d1edee 33.3%, #d1edee 66.6%, #966165 66.6%, #966165) bottom no-repeat;
-       background-size: 70% 5px;
-    }
-    .f-button:hover {
-       background-size: 100% 5px;
-    }
 .head {
    color: #cbd8e5;
    font-size: large;
 }
-a {
-   text-decoration: none;
-   color: #f8fbeb;  
-   border-bottom: 1px solid;
-border-bottom-color: rgba(15, 122, 252, 0.2);
-}
-  
-    
-  
-    header
-    {
+
+header {
      text-align: center;
      background-image: url(../images/bg.jpg);
      height: 400px;
@@ -73,8 +33,7 @@ border-bottom-color: rgba(15, 122, 252, 0.2);
      padding-left: 250px;
     }
   
-    .nav-flex
-    {
+.nav-flex {
      display: flex;
      flex-direction: row;
      align-items: flex-start;
@@ -82,8 +41,8 @@ border-bottom-color: rgba(15, 122, 252, 0.2);
      justify-content: space-around;
      background-color: #039487;
     }
-    .nav-flex-item
-    {
+    
+.nav-flex-item {
     list-style-type: none;
     padding: 10px;
     margin-right: 5px;
@@ -91,8 +50,7 @@ border-bottom-color: rgba(15, 122, 252, 0.2);
     text-transform: uppercase;
     background-color: #039487;
     }
-    .nav-flex-item:hover
-    {
+.nav-flex-item:hover {
     background-color: #b8d7a6;
     }
 .wrapper {
