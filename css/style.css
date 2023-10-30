@@ -10,6 +10,26 @@ h2 {
 color: #f8fbeb;
 text-align: center;
 }
+
+a {
+   text-decoration: none;
+   color: #f0f0f0;
+   border-bottom: 1px solid;
+   border-bottom-color: rgba(15, 122, 252, 0.2);
+ }
+
+ a:hover {
+   text-decoration: none;
+   color: #333;
+   border-bottom-color: rgba(208, 64, 0, 0.2);
+ }
+
+ a:visited {
+   text-decoration: none;
+   color: #800080;
+   border-bottom-color: rgba(128, 0, 128, 0.2);
+ }
+
 .discr {
     color: black;
     text-align: right;
