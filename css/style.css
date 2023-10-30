@@ -118,7 +118,6 @@ footer
       padding: 5px 5px 5px 60px;
       box-sizing: border-box;
       text-align: center;
-      float: inline-start;
     }
     
     .images {
@@ -178,5 +177,7 @@ footer
    .markers li::marker {
       color: #b9ff03;
       font-size: 18px;
+      margin: 0 0 20px 14px;
+	padding: 0;
    }
    
