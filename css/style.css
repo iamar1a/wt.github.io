@@ -106,30 +106,18 @@ footer
     justify-content: center;
     align-items: center;
     margin: 10px 0;
-    flex-wrap: wrap;/*разрешен перенос на новую строку*/
+    flex-wrap: wrap;
 }
 .social li,
 .menu li{
-    list-style: none;/*удалить черные маркеры*/
+    list-style: none;
 }
 .social li a {
-    font-size: 2em;/*размер иконок*/
-    color: #fff;/*цвет иконок*/
+    font-size: 2em;
+    color: #fff;
     margin: 0 10px;
-    display: inline-block;/*отображать как строчно-блочный элемент*/
-    transition: 0.5s;/*плавный переход*/
-}
-.menu li a {
-    font-size: 1.2em;/*размер ссылок меню*/
-    color: #fff;/*цвет ссылок меню*/
-    opacity: 0.75;/*значение прозрачности*/
-    margin: 0 15px;
-    text-decoration: none;/*ссылка без подчеркивания*/
     display: inline-block;
-}
-.menu li a:hover {
-    opacity: 1;
-}
+    transition: 0.5s;
 footer p {
     color: #fff;
     text-align: center;
@@ -220,7 +208,7 @@ footer p {
       margin: 0 0 20px 14px;
 	padding: 0;
    }
-   .btn {
+.btn {
       margin-left: 50%;
       margin-right: 50%;
       width: 10em; 
@@ -235,5 +223,5 @@ footer p {
     border-width: 0; 
     border-bottom: 4px solid #90aa0b; 
     box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.8);
-   }
-   
+}
+ 
