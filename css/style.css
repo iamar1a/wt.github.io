@@ -96,9 +96,7 @@ border-bottom-color: rgba(15, 122, 252, 0.2);
     background-color: #b8d7a6;
     }
 .wrapper {
-position: fixed;
-top: 0;
-left: 0;
+margin: 0 auto;
 width: 100%;
 background-color: #039487;
 }
@@ -119,7 +117,7 @@ footer
    color: #cbd8e5;  
   }
   
-   .sign {
+.sign {
       float: right; 
       border: 1px solid #333; 
       padding: 7px; 
