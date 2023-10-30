@@ -118,6 +118,7 @@ footer
       padding: 5px 5px 5px 60px;
       box-sizing: border-box;
       text-align: center;
+      float: inline-start;
     }
     
     .images {
