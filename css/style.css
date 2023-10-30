@@ -108,14 +108,13 @@ footer
    .text {
       display: inline-block;
       width: 30%;
-      border: 1px solid gray;
       padding: 5px 5px 5px 60px;
       box-sizing: border-box;
     }
     
-    img {
-      margin-left: -55px;
-      float: left;
+    .images {
+      margin-left: 50px;
+      float: right;
     }
     
     b {
