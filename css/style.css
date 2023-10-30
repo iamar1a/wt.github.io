@@ -130,6 +130,7 @@ footer
     }
     table {
       border: 5px solid;
+      position: center;
     }
     th {
       font-weight: normal;
