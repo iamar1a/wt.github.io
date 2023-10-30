@@ -118,8 +118,6 @@ footer
       padding: 5px 5px 5px 60px;
       box-sizing: border-box;
       text-align: center;
-      margin-top: 10%;
-      margin-bottom: 10%;
     }
     
     .images {
@@ -133,8 +131,8 @@ footer
     table {
       border: 2px solid;
       position: center;
-      margin-left: 50%;
-      margin-right: 50%;
+      margin-left: 7%;
+      margin-right: 7%;
     }
     th {
       font-weight: normal;
