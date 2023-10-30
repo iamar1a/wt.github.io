@@ -155,4 +155,30 @@ footer
     color: #cbd8e5;
     font-family: Apple Chancery;
     }
+    .block__section {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      margin: 0;
+      padding: 0;
+      flex-direction: row;
+   }
+   
+   .block_text__span {
+      background: #b8d7a6;
+      color: #cbd8e5;
+      padding: 0 8px;
+      margin-right: 6px;
+      height: 10px;
+   }
+   
+   .title_pattern {
+      height: 14px;
+      margin-top: 29px;
+   }
+   
+   .block {
+      flex: 1 0;
+      width: 50%;
+   }
    
