@@ -85,4 +85,20 @@ footer
      .sign figcaption {
       margin: 0 auto 5px; 
      }
+   .text {
+      display: inline-block;
+      width: 30%;
+      border: 1px solid gray;
+      padding: 5px 5px 5px 60px;
+      box-sizing: border-box;
+    }
+    
+    img {
+      margin-left: -55px;
+      float: left;
+    }
+    
+    b {
+      display: block;
+    }
    
