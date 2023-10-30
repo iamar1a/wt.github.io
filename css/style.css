@@ -131,6 +131,8 @@ footer
     table {
       border: 2px solid;
       position: center;
+      margin-left: 50%;
+      margin-right: 50%;
     }
     th {
       font-weight: normal;
