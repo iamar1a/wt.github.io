@@ -21,13 +21,13 @@ a {
  }
 
  a:hover {
-   text-decoration: none;
+   text-decoration: underline;
    color: #333;
    border-bottom-color: rgba(208, 64, 0, 0.2);
  }
 
  a:visited {
-   text-decoration: none;
+   text-decoration: underline;
    color: #800080;
    border-bottom-color: rgba(128, 0, 128, 0.2);
  }
