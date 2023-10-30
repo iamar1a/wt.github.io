@@ -12,7 +12,9 @@ text-align: center;
 }
 
 a {
-   text-decoration: none;
+   background-color: #039487;
+   text-decoration: underline;
+   padding: 1px;
    color: #f0f0f0;
    border-bottom: 1px solid;
    border-bottom-color: rgba(15, 122, 252, 0.2);
