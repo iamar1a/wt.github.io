@@ -28,7 +28,7 @@ a {
 
  a:visited {
    text-decoration: underline;
-   color:lightslategrey;
+   color:darkmagenta;
    border-bottom-color: rgba(128, 0, 128, 0.2);
  }
 
@@ -116,6 +116,7 @@ footer
     
     .images {
       margin-left: 50px;
+      float: left;
     }
     
     b {
