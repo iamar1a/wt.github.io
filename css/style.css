@@ -181,6 +181,7 @@ footer
 	padding: 0;
    }
    .btn {
+      position: center;
       width: 10em; 
       height: 3em;
       color: #cbd8e5; 
