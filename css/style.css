@@ -182,12 +182,12 @@ footer p {
       border-top: 2px dashed;
       padding: 10px 20px;
     }
-    .tble {width: 100%; text-align: center; border-bottom: 2px solid #dfdfdf; border-radius: 6px; border-collapse: separate; border-spacing: 0px;}
-.tble thead tr {color: #ffffff; font-weight: bold; background: #c83240;}
-.tble tr td {border-right: 1px solid #dfdfdf;}
+    .tble {width: 100%; text-align: center; border-bottom: 2px solid #acb78e; border-radius: 6px; border-collapse: separate; border-spacing: 0px;}
+.tble thead tr {color: #acb78e; font-weight: bold; background: #c83240;}
+.tble tr td {border-right: 1px solid #acb78e;}
 .tble tr td:last-child {border-right: 0px;}
-.tble tbody tr:nth-child(1n) {background: #f6f6f6;}
-.tble tbody tr:nth-child(2n) {background: #e6e6e6;}
+.tble tbody tr:nth-child(1n) {background: #acb78e;}
+.tble tbody tr:nth-child(2n) {background: #acb78e;}
 .tble tbody tr:hover {background: #ffe8e8; transition-duration: 0.6s;}
    
    .block {
