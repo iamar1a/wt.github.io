@@ -274,18 +274,12 @@ footer p {
 .table tbody tr:last-child td:last-child {
 	border-radius: 0 0 20px 0;
 }
-ul {
-  list-style-image: url(star.svg);
-}
-ul {
-  padding-left: 2rem;
-  list-style-type: none;
-}
-
-ul li {
-  padding-left: 2rem;
-  background-image: url(star.svg);
-  background-position: 0 0;
-  background-size: 1.6rem 1.6rem;
-  background-repeat: no-repeat;
-}
+li {
+  list-style: none; /* Скрываем маркеры списка */
+  text-indent: -1em; /* Сдвигаем элементы списка влево */
+ }
+ li::before {
+  content: '\25ba'; /* Добавляем маркер в шестнадцатеричном формате*/
+  padding-right: 5px; /* Расстояние от маркеров до текста */
+  color: #f38554; /* Маркеры красного цвета */
+ }
