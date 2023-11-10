@@ -292,4 +292,12 @@ li {
   flex-wrap: nowrap;
   justify-content: space-around;
   background-color: #e4d1c0;
-      }
+  }
+  .bloc-2-item {
+    list-style-type: none;
+    padding: 10px;
+    margin-right: 5px;
+    border-left: 5px solid #b9ff03;
+    text-transform: uppercase;
+    background-color: #b9ff03;
+    }
