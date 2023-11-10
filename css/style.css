@@ -5,15 +5,18 @@ body {
 h1 {
 color: #cbd8e5;
 text-align: center;
+font-family: Verdana, Helvetica;
 }
 h2 {
 color: #f8fbeb;
 text-align: center;
+font-family: Verdana, Helvetica;
 }
 
 a {
    background-color: #507b49;
    text-decoration: underline;
+   font-family: Verdana, Helvetica;
    padding: 1px;
    color: #f0f0f0;
    border-bottom: 1px solid;
@@ -34,21 +37,25 @@ a {
 
 .discr {
     color: black;
+    font-family: Verdana, Helvetica;
     text-align: right;
     }
 
 .head {
    color: #cbd8e5;
+   font-family: Verdana, Helvetica;
    font-size: large;
 }
 .head-2 {
    color: #cbd8e5;
+   font-family: Verdana, Helvetica;
    font-size: large;
    text-align: center;
 }
 
 header {
      text-align: center;
+     font-family: Verdana, Helvetica;
      background-image: url(../images/bg.jpg);
      height: 400px;
      background-repeat: no-repeat;
@@ -125,6 +132,7 @@ footer {
 }
 footer p {
     color: #fff;
+    font-family: Verdana, Helvetica;
     text-align: center;
     margin-top: 15px;
     font-size: 1.1em;
@@ -167,6 +175,7 @@ footer p {
     }
     th {
       font-weight: normal;
+      font-family: Verdana, Helvetica;
       font-size: 20px;
       color: #cbd8e5;
       text-transform: uppercase;
@@ -183,7 +192,7 @@ footer p {
       padding: 10px 20px;
     }
     .tble {width: 100%; text-align: center; border-bottom: 2px solid #acb78e; border-radius: 6px; border-collapse: separate; border-spacing: 0px;}
-.tble thead tr {color: #acb78e; font-weight: bold; background: #c83240;}
+.tble thead tr {color: #acb78e; font-weight: bold; font-family: Verdana, Helvetica; background: #c83240;}
 .tble tr td {border-right: 1px solid #acb78e;}
 .tble tr td:last-child {border-right: 0px;}
 .tble tbody tr:nth-child(1n) {background: #acb78e;}
@@ -196,6 +205,7 @@ footer p {
    }
    .markers li::marker {
       color: #b9ff03;
+      font-family: Verdana, Helvetica;
       font-size: 18px;
       margin: 0 0 20px 14px;
 	padding: 0;
@@ -223,6 +233,7 @@ footer p {
 }
 .tble thead th {
 	font-weight: bold;
+  font-family: Verdana, Helvetica;
 	text-align: left;
 	border: none;
 	padding: 10px 15px;
@@ -244,6 +255,7 @@ footer p {
 }
 .tble tbody td {
 	text-align: left;
+  font-family: Verdana, Helvetica;
 	border: none;
 	padding: 10px 15px;
 	font-size: 14px;
@@ -262,11 +274,11 @@ footer p {
 	border-radius: 0 0 20px 0;
 }
 li {
-  list-style: none; /* Скрываем маркеры списка */
-  text-indent: -1em; /* Сдвигаем элементы списка влево */
+  list-style: none; 
+  text-indent: -1em; 
  }
  li::before {
-  content: '\25ba'; /* Добавляем маркер в шестнадцатеричном формате*/
-  padding-right: 5px; /* Расстояние от маркеров до текста */
-  color: #f38554; /* Маркеры красного цвета */
+  content: '\25ba'; 
+  padding-right: 5px; 
+  color: #f38554;
  }
