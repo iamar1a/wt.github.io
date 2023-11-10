@@ -205,7 +205,6 @@ footer p {
    }
    .markers li::marker {
       color: #b9ff03;
-      font-family: Verdana, Helvetica;
       font-size: 18px;
       margin: 0 0 20px 14px;
 	padding: 0;
