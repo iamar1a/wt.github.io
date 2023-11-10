@@ -286,14 +286,10 @@ li {
   color:aliceblue
  }
  .block-2 { 
-  float: left; 
-   line-height: 120px;
-    font-size: 40px;
-     background: #e4d1c0; 
-     border: #b9ff03;
-     color: white;
-      margin-top: 80px; 
-      width: 420px; /*Фиксируем ширину блока*/ 
-      margin-right: 10px;
-       text-align: center; /*Центрируем текст по горизонтали*/ 
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background-color: #e4d1c0;
       }
