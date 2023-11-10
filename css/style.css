@@ -285,14 +285,15 @@ li {
   font-family: Verdana, Helvetica;
   color:aliceblue
  }
- .block-2 { float: left; 
+ .block-2 { 
+  float: center; 
    line-height: 120px;
     font-size: 40px;
      background: #e4d1c0; 
      border: #b9ff03;
      color: white;
-      margin-top: 60px; 
-      width: 320px; /*Фиксируем ширину блока*/ 
+      margin-top: 80px; 
+      width: 420px; /*Фиксируем ширину блока*/ 
       margin-right: 10px;
        text-align: center; /*Центрируем текст по горизонтали*/ 
       }
