@@ -285,3 +285,17 @@ li {
   font-family: Verdana, Helvetica;
   color:aliceblue
  }
+ .block-2 {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e4d1c0;
+  font-weight: bold;
+  font-family: Verdana, Helvetica;
+	text-align: center;
+  border: #b9ff03;
+  
+
+
+
+ }
