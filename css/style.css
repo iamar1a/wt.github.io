@@ -307,10 +307,6 @@ li {
   align-items: center;
   justify-content: center;
 }
-.text-1 {
-  display: inline-block;
-  text-align: justify;
-}
 .img-1 {
   float: right;
 }
