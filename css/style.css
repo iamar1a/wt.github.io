@@ -285,6 +285,7 @@ li {
   font-family: Verdana, Helvetica;
   color:aliceblue;
   display: inline-block;
+  text-align: top;
  }
  * {
   padding: 0;
