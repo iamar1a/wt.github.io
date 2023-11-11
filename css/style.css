@@ -167,7 +167,7 @@ footer p {
     b {
       display: block;
     }
-    table {
+    .table-1 {
       border: 2px solid;
       position: center;
       margin-left: auto;
@@ -315,7 +315,7 @@ li {
 .TABLE {
   width: 300px; /* Ширина таблицы */
   border-bottom: 2px solid maroon; /* Линия внизу таблицы */
-  background: #fffacd; /* Цвет фона таблицы */
+  
  }
  .TH {
   background: maroon; /* Цвет фона заголовка */
