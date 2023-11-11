@@ -335,8 +335,6 @@ vertical-align: top;
 /* Убираем выравнивание по центру */
 text-align: left;
 
-/* Отступы между блоками */
-margin: 3em 0 0 2em;
 }
 
 .thumbnail .r
