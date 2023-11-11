@@ -283,7 +283,8 @@ li {
  }
  .text {
   font-family: Verdana, Helvetica;
-  color:aliceblue
+  color:aliceblue;
+  display: inline-block;
  }
  * {
   padding: 0;
