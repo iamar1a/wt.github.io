@@ -55,9 +55,10 @@ a {
 
 header {
      text-align: center;
-     font-family: Verdana, Helvetica;
+     font-family: Verdana;
      background-image: url(../images/bg.jpg);
      height: 400px;
+     width: 600px;
      background-repeat: no-repeat;
      background-position: left;
      background-color: #e4d1c0;
