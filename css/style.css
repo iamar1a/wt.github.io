@@ -278,8 +278,8 @@ footer p {
 }
 
 
- .text {
-  font-family: Verdana, Helvetica;
+ .text-1 {
+  font-family: Verdana;
   color:aliceblue;
   display: inline-block;
   text-align: top;
@@ -442,8 +442,4 @@ body {
   font-weight: 500;
   font-size: 24px;
   color: #707981;
-}
-.image-1 {
-  float:"left" 
-  vspace="5" hspace="5"
 }
