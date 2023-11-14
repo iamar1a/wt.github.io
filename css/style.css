@@ -329,3 +329,10 @@ li {
 	margin: 7px 0;
 	font-size: 14px;
 }
+.wrap{
+  width: 400px;
+  border: 1px solid;
+}
+ul{
+  column-count: 2;
+}
