@@ -328,7 +328,7 @@ footer p {
 ul{
   column-count: 2;
 }
-.container {
+.container-2 {
   display: flex;
   justify-content:space-between;
 }
