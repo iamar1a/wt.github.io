@@ -280,16 +280,6 @@ footer p {
   display: inline-block;
   text-align: top;
  }
- * {
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
-
-.parent_div {
-  display: flex;
-  flex-wrap: wrap;
-}
 
 .container {
   flex: 1 1 25%;
@@ -302,15 +292,13 @@ footer p {
   align-items: center;
   justify-content: center;
 }
-.img-1 {
-  float: right;
-}
+
 .imges {
-  border: 2px solid #87a922; /* Рамка вокруг фотографии */
-  padding: 5px; /* Расстояние от картинки до рамки */
-  background: #666; /* Цвет фона */
-  margin-right: 10px; /* Отступ справа */
-  margin-bottom: 10px; /* Отступ снизу */
+  border: 2px solid #87a922;
+  padding: 5px; 
+  background: #666; 
+  margin-right: 10px; 
+  margin-bottom: 10px; 
   float: left;
  }
  .markers {
