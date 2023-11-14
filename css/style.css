@@ -272,15 +272,8 @@ footer p {
 .table tbody tr:last-child td:last-child {
 	border-radius: 0 0 20px 0;
 }
-li {
-  list-style: none; 
-  text-indent: -1em; 
- }
- li::before {
-  content: '\25ba'; 
-  padding-right: 5px; 
-  color: #f38554;
- }
+
+
  .text {
   font-family: Verdana, Helvetica;
   color:aliceblue;
