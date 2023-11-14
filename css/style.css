@@ -48,7 +48,7 @@ a {
 }
 .head-2 {
    color: #cbd8e5;
-   font-family: Verdana, Helvetica;
+   font-family: Verdana;
    font-size: large;
    text-align: center;
 }
@@ -148,7 +148,7 @@ footer p {
      .sign figcaption {
       margin: 0 auto 5px; 
      }
-   .text {
+.text {
       display: inline-block;
       width: 70%;
       padding: 5px 5px 5px 60px;
@@ -199,7 +199,7 @@ footer p {
 .tble tbody tr:nth-child(2n) {background: #acb78e;}
 .tble tbody tr:hover {background: #ffe8e8; transition-duration: 0.6s;}
    
-   .block {
+  .block {
       flex: 1 0;
       width: 50%;
    }
@@ -320,3 +320,12 @@ li {
   margin-bottom: 10px; /* Отступ снизу */
   float: left;
  }
+ .markers {
+	margin: 0 0 20px 24px;
+	padding: 0;
+	list-style-type: "⚡ ";
+}
+.markers li {
+	margin: 7px 0;
+	font-size: 14px;
+}
