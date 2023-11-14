@@ -328,3 +328,7 @@ footer p {
 ul{
   column-count: 2;
 }
+.container {
+  display: flex;
+  justify-content:space-between;
+}
