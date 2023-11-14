@@ -280,6 +280,16 @@ footer p {
   display: inline-block;
   text-align: top;
  }
+ * {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.parent_div {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .container {
   flex: 1 1 25%;
